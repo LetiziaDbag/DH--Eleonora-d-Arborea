@@ -1,0 +1,162 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+		<fileDesc>
+			<titleStmt>
+				<title>Carta de Logu: edizione digitale</title>
+				<respStmt>
+					<resp>Codifica XML</resp>
+					<name xml:id="LD">Letizia Dore</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<p>Not for distribution.</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><title>Carta de logu</title> di <author>Eleonora di Arborea</author>; a cura di <editor xml:id="GMM">Giovanni Maria Mameli de' Mannelli</editor> - <pubPlace>Nuoro</pubPlace>: <publisher>Editrice Archivio Fotografico Sardo</publisher>, <date>2007</date></bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<normalization><p>Gli accenti circonflessi usati per segnalare le i lunghe non sono stati riportati.</p>
+				<p>Sono stati rimossi gli spazi precedenti i segni di interpunzione.</p>
+				</normalization>
+				<p>Le note, segnalate sia nel testo in sardo che nella traduzione italiana, sono state inserite solo nelle porzioni di testo in italiano.</p>
+				<p>Le note sono state riportate, ma non marcate</p>
+			</editorialDecl>
+			<classDecl>
+				<taxonomy xml:id="termini_giuridici">
+					<category xml:id="fatti_giuridici">
+						<catDesc>Accadimenti nell'ambito delle norme giuridiche.</catDesc>
+						<category xml:id="reato">
+							<catDesc>Comportamento vietato dalla legge.</catDesc>
+							<category xml:id="furto">
+								<catDesc>Illecita impossessazione di un bene altrui.</catDesc>
+							</category>
+							<category xml:id="commercio_abusivo">
+								<catDesc>Commercio vietato per i suoi oggetti o le sue modalità.</catDesc>
+							</category>
+							<category xml:id="ratto">
+								<catDesc>Rapimento.</catDesc>
+							</category>
+							<category xml:id="stupro">
+								<catDesc>Violenza sessuale.</catDesc>
+							</category>
+							<category xml:id="effrazione">
+								<catDesc>Effrazione in domicilio altrui.</catDesc>
+							</category>
+						</category>
+						<category xml:id="pena">
+							<catDesc>Sanzione predisposta per la violazione di un precetto penale.</catDesc>
+							<category xml:id="ammenda">
+								<catDesc>Sanzione pecuniaria o altri risarcimenti (es. matrimonio riparatore).</catDesc>
+							</category>
+							<category xml:id="arresto">
+								<catDesc>Detenzione.</catDesc>
+							</category>
+							<category xml:id="mutilazione">
+								<catDesc>Grave danneggiamento o asportazione di una parte del corpo.</catDesc>
+							</category>
+							<category xml:id="sequestro">
+								<catDesc>Beni sottratti al reo.</catDesc>
+							</category>
+							<category xml:id="fustigazione">
+								<catDesc>Reo condannato a fustigazione.</catDesc>
+							</category>
+						</category>
+						<category xml:id="condizione">
+							<catDesc>Condizioni che determinano una determinata pena.</catDesc>
+						</category>
+					</category>
+					<category xml:id="parti">
+						<catDesc>Parti coinvolte in un reato.</catDesc>
+						<category xml:id="reo">
+							<catDesc>Attore di un reato.</catDesc>	
+						</category>
+						<category xml:id="vittima">
+							<catDesc>Parte lesa in un reato.</catDesc>
+						</category>
+						<category xml:id="beneficiario">
+							<catDesc>Parte che ottiene risarcimento.</catDesc>
+						</category>
+						<category xml:id="esecutore">
+							<catDesc>Detentore potere esecutivo.</catDesc>
+						</category>
+					</category>
+					<category xml:id="cariche">
+						<catDesc>Cariche giuridiche menzionate.</catDesc>
+						<category xml:id="giudice">
+							<catDesc>Sovrano dei quattro regni sardi esistenti tra il IX ed il XV secolo.</catDesc>
+						</category>
+						<category xml:id="curatore">
+							<catDesc>Magistrato locale a capo di una circoscrizione amministrativa, detta curatoria.</catDesc>
+						</category>
+					</category>
+				</taxonomy>
+				<taxonomy xml:id="fauna">
+					<category xml:id="selvatica">
+						<catDesc>Animali selvatici</catDesc>
+							<category xml:id="astore">
+								<catDesc ref="https://www.gbif.org/taxon/CTQ6S">Uccello rapace della famiglia Accipitridae, endemico della Sardegna e della Corsica.</catDesc> <!--Global Biodiversity Information Facility-->
+							</category>
+							<category xml:id="falcone">
+								<catDesc ref="https://www.gbif.org/taxon/3DTG5">Probabilmente ci si riferisce proprio al Falco della regina, considerato il riferimento alla sua nidificazione in Africa alla nota 149.</catDesc>
+							</category>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="38"/>
+			<div xml:lang="sc">
+				<div xml:id="XXI_sc" corresp="XXI_it">
+					<head type="mainTitle">CAP. XXI.</head>
+					<head type="subTitle">De chi levarit per forza mygeri coyada.</head>
+					<p><hi rend="capolettera">V</hi>olemus, ed ordinamus, chi, si alcun homini <rs ana="#ratto" xml:lang="sc">levarit per forza <rs ana="#vittima" xml:lang="sc">mugeri coyada</rs>, over <rs ana="#vittima" xml:lang="sc">alcun'attera femina, chi esserit jurada</rs></rs>, o <rs ana="stupro" xml:lang="sc">isponxellarit <rs ana="#vittima" xml:lang="sc">alcuna virgini per forza</rs></rs>, e dessas dittas causas esserit legittimamenti binchidu, siat juygadu, <rs ana="#ammenda" xml:lang="sc">chi paghit <rs ana="#condizione #vittima" xml:lang="sc">pro sa coyada</rs> liras chimbicentas</rs>; e <rs ana="#condizione" xml:lang="sc">si non pagat infra dies bindighi, de chi hat a esser juygadu, <rs ana="#mutilazione" xml:lang="sc">siat illi segad'unu pee, pro modu ch'illu perdat</rs></rs>: e <rs ana="#ammenda"><rs ana="#condizione #vittima" xml:lang="sc">pro sa bagadia</rs> siat juygadu, chi paghit liras ducentas</rs>, e siat ancu tenudu <rs ana="#ammenda" xml:lang="sc">pro levarilla pro mugeri, <rs ana="#condizione" xml:lang="sc">si est senza maridu</rs>, e <rs ana="#condizione" xml:lang="sc">placchiat assa femina</rs></rs>; e <rs ana="#ammenda" xml:lang="sc"><rs ana="#condizione" xml:lang="sc">si nolla levat pro mugeri</rs>, siat ancu tentu pro coyarilla</rs> secundu da condicioni dessa femina, ed issa qualidadi dess'homini; e <rs ana="#condizione" xml:lang="sc">si cussas caussas issu non podit fagheri a dies bindighi, de chi hat a esser juygadu, <rs ana="#mutilazione" xml:lang="sc">seghintilli unu pee, per modu ch'illu perdat</rs></rs>: e <rs ana="#ammenda" xml:lang="sc"><rs ana="#condizione #vittima" xml:lang="sc">pro sa virgini</rs> paghit sa simili pena</rs>, e <rs ana="#mutilazione" xml:lang="sc"><rs ana="#condizione" xml:lang="sc">si non hadi dae hui pagari</rs>, seghintilli unu pee</rs>, ut supra.
+					</p>
+				</div>
+				<div xml:id="XXII_sc" corresp="XXII_it">
+					<head type="mainTitle">CAP. XII.</head>
+					<head type="subTitle">De chi intrait per forza in domu de alcuna femina coyada.</head>
+					<p><hi rend="capolettera">I</hi>tem ordinamus, chi, si <rs ana="#effrazione"><rs ana="#reo">alcun homini</rs> intrarit per forza a domu <rs ana="#vittima">de alcuna femina coyada</rs></rs>, e <rs ana="#condizione">tenintihellu</rs>, e <rs ana="#condizione">noll'happat hapida carnalimenti</rs>, ed est indi binchidu le<pb n="40"/>gittimamenti, siat juygadu <rs ana="#ammenda">a pagari liras centu</rs>; e <rs ana="#mutilazione"><rs ana="#condizione">si non pagat a dies bindighi</rs>, de chi hat a esser juygadu, seghintilli un'origla tota</rs>: e si <rs ana="#adulterio"><rs ana="#reo">alcun homini</rs> esserit tentu cun alcuna femina coyadas <rs ana="#condizione">in domu dessa femina</rs>, ed <rs ana="#condizione">esseri voluntadi dessa femina</rs></rs>, <rs ana="#reo">cussa codali femina</rs> siat <rs ana="#fustigazione">affrastada, e fustigada</rs>, ed <rs ana="#sequestro">ispossedida dessos benis suos totu, e dessas raxonis suas gasi de dodas, comenti de atteros benis</rs>, e remangiant assu <rs ana="#beneficiario">maridu</rs>, e non a figios, chi havirit cun cussu maridu, e nen cun atteru maridu, chi havirit hapidu per innantis, e non ad atteru parenti suo, exceptu a plagheri de cussu maridu, cun su quali havirit fattu sa ditta fallanza; ed <rs ana="#reo">iss'homini, cun su quali esserit acattada</rs>, non siat frustadu, ma <rs ana="#ammenda">deppiat pagari infra dies bindighi, de chi hat a esser juygadu, liras centu</rs>; e <rs ana="#mutilazione"><rs ana="#condizione">si non pagarit infra su dittu tempus</rs>, siat illi segada n'origla in totu</rs>: e <rs ana="#condizione">zo non s'intendat pro feminas, chi siant publicas meretricis: nen ancu in casu, chi sa femina andarit a domu dess'homini, over de attera persona, <rs ana="#condizione">chi non esserit habitacioni dessa ditta femina; ch'in cussu casu <rs ana="#reo #ammenda">s'homini paghit liras vintichimbi</rs>, <rs ana="#reo #fustigazione">ma sa femina siat affrustada</rs></rs></rs>, ut supra.		
+					</p>
+				</div>
+			</div>
+			<pb n="39"/>
+			<div xml:lang="it">
+				<div xml:id="XXI_it" corresp="XXI_sc">
+					<head type="mainTitle">CAP. XXI.</head>
+					<head type="subTitle">Di chi levasse per forza donna maritata.</head>
+					<p><hi rend="capolettera">V</hi>ogliamo, ed ordiniamo, che, se <rs ana="reo">alcun uomo</rs> <rs ana="#ratto">levasse per forza <rs ana="#vittima">donna maritata</rs>, ovvero <rs ana="#vittima">alcun altra donna, che fosse giurata,</rs></rs>, o <rs ana="stupro">spulzellasse <rs ana="#vittima">alcuna vergine per forza</rs></rs>, e di dette cause fosse legittimamente convinto, sia giudicato, <rs ana="#ammenda">che paghi <rs ana="#condizione #vittima">per la maritata</rs> lire cinquecento</rs>; e <rs ana="#condizione">se non paga fra giorni quindici, dacchè sarà giudicato, <rs ana="#mutilazione">siagli tagliato un piede, per modo che lo perda</rs></rs><note n="41" place="foot" type="editorial" resp="#GMM">La durezza, ed austerità di queste pene, ch'io non oso di chiamar barbare, per averne veduto delle simili stabiliti da umanissimi Principi, e fra gli altri dal Santo Re di Francia, del di cui Codice ho parlato nella nota 8. ed occorrerà di parlare in progresso, dimostra la costumatezza, ed invidiabili contegno di que' tempi, e quanto i Legislatori fossero zelanti protettori dell'onestà, e dell'innocenza. Questo Capitolo però è stato rivocato nelle Corti del 1593. a riguardo della pena del taglio del piede, con essersi surrogata quella di dieci anni di galera, oltre la multa; e non potendo pagar la multa, in vece di dieci, quindici anni di galera; e stabilita la stessa pena per lo stupratore nel caso, in cui la donna non lo volesse per marito, o non si contentasse della dote, che le volesse dare: ma le R. Pram. ognora più miti, e propense a lasciare al Giudice un arbitrio, che non poco l'imbarazza, nel cap. 16. del tit. 25. anche rivocando la pena del taglio del piede, anno stabilito quella di dieci anni di galera, o minore, secondo le circostanze del delitto, e la qualità de' delinquenti, con doversi aderir sempre il Giudice, in quanto potrà, alla disposizione del Diritto Comune, lasciato il capitolo nella sua forza, e vigore nel rimanente, che dispone. Era forse questo uno di que' delitti, ne' quali convenisse di aver riguardo al maggiore, o minor dolo? Che se la Legge volle aver riguardo al caso di seduzione per parte della donna, avrebbe potuto stabilire una pena contro la donna seducente, lasciando in quel caso l'uomo impunito: disposizione, che forse avrebbe servito di maggior contegno all'ormai troppo sfacciato sesso femminile.</note>: e <rs ana="#ammenda"><rs ana="#condizione #vittima">per la nubile</rs> che paghi lire dugento</rs>, e sia anco tenuto <rs ana="#ammenda">di pigliarla per moglie, <rs ana="#condizione">s'è senza marito</rs>, e <rs ana="#condizione">piaccia alla donna</rs></rs>; e <rs ana="#ammenda"><rs ana="#condizione">se non la piglia per moglie</rs>, sia anco tenuto di maritarla</rs><note n="42" place="foot" type="editorial" resp="#GMM">Cioè a dotarla. Questa seconda parte <del resp="#LD">parte</del>a primo aspetto, che comprenda l'ultima ancora, onde l'ultima si renda superflua: eppure non si troverà tale, quando si rifletta sui tre casi contemplati nel principio del Capitolo, cioè di ratto violento di donna maritata, di ratto violento di donna semplicemente giurata, e di vero stupro; mentre si vedrà chiaramente, che, nel venire alle disposizioni specifiche, colla prima, e colla seconda provvede spezialmente pel ratto violento di donna maritata, e di donna nubile, legata però cogli sponsali, sia essa fanciulla, o vedova, senz'altra considerazione, e colla terza pel vero stupro. Due difficoltà però nascono tuttavia dalla disposizione di questo Capitolo, la prima dall'espressione "s'è senza marito" che talvolta non si volesse considerar relativ'alla donna già promessa, la seconda dal non vedersi contemplato il caso del ratto violento di fanciulla non giurata: ed io inclino a credere, che quell'espressione abbracci tanto il caso della donna, che per causa del ratto venisse rifiutata dallo sposo, quanto quello del ratto di fanciulla sciolta da ogni legame, purchè concorrà la qualità di violento.</note> secondo la condizione della donna, e la qualità dell'uomo; e <rs ana="#condizione">se quelle cos'egli non può fare a giorni quindici, dacchè sarà giudicato, <rs ana="#mutilazione">siagli tagliato un piede, per modo che lo perda</rs></rs>: e <rs ana="#ammenda"><rs ana="#condizione #vittima">per la vergine</rs> paghi la simil pena</rs>, e <rs ana="#mutilazione"><rs ana="#condizione">se non ha dpve pagare</rs>, taglingli un piede</rs>, come sopra.
+					</p>
+				</div>
+				<div xml:id="XXII_it" corresp="XXII_sc">
+					<head type="mainTitle">CAP. XII.</head>
+					<head type="subTitle">Di chi entrasse per forza in casa di alcuna femmina maritata.</head>
+					<p><hi rend="capolettera">I</hi>noltre ordiniamo, che, se <rs ana="#effrazione"><rs ana="#reo">alcun uomo</rs> entrasse per forza in casa <rs ana="#vittima">di alcuna femmina maritata</rs></rs>, e <rs ana="#condizione">colgonvelo</rs>, e <rs ana="#condizione">non l'abbia avuta carnalmente</rs>, e n'è convinto<pb n="41"/>legittimamente, sia giudicato <rs ana="#ammenda">a pagare lire cento</rs>; e <rs ana="#mutilazione"><rs ana="#condizione">se non paga a giorni quindici</rs>, dacchè sarà giudicato, taglingli un'orecchia tutta</rs><note n="43" place="foot" type="editorial" resp="#GMM">Rivocato questo Capitolo, come pure il seguente dalle R. Pram. tit. 25. cap. 67. a riguardo della pena stabilita per gli uomini di cento lire, ed in difetto del taglio dell'orecchia, per non averla più considerata corrispondente alla qualità del delitto, e surrogate le pene del Diritto Comune, secondo le circostanze del delitto, ad arbitrio del Giudice.</note>: e se <rs ana="#adulterio"><rs ana="#reo">alcun uomo</rs> fosse colto con alcuna femmina maritata <rs ana="#condizione">in casa della femmina</rs>, e <rs ana="#condizione">fosse volontà della femmina</rs></rs>, <rs ana="#reo">quella femmina</rs> sia <rs ana="#fustigazione">frustata, e scopata</rs>, e <rs ana="#sequestro">spodestata de' beni suoi tutti, e delle ragioni sue così di doti</rs>, e rimangano al <rs ana="#beneficiario">marito</rs>, e non ai figlioli, che avesse con quel marito, nè con altro marito, che avesse avuto per l'innanzi, e non ad altro parente suo, eccetto a piacere di quel marito, col quale avesse fatto della fallanza; e <rs ana="#reo">l'uomo, col quale fosse trovata</rs>, non sia frustato, ma <rs ana="#ammenda">debba pagare infra giorni quindici, dacchè sarà giudicato, lire cento</rs>; e <rs ana="#mutilazione"><rs ana="#condizione">se non pagasse infra detto tempo</rs>, siagli tagliata un'orecchia del tutto</rs>: e <rs ana="#condizione">ciò non si intenda per femmine, che siano pubbliche meretrici: nè anche in caso, che la femmin'andasse a casa dell'uomo, ovvero di altra persona, <rs ana="#condizione">che non fosse abitazione<note n="44" place="foot" type="editorial" resp="#GMM">Qui abitazione sta nel propio significato di abituro.</note> di detta femmina, che in quel caso <rs ana="#reo #ammenda">l'uomo paghi lire venticinque</rs>, <rs ana="#reo #fustigazione">ma la femmina sia frustata</rs></rs></rs>, come sopra.	
+					</p>
+				</div>
+
+			</div>
+			<pb n="102"/>
+			<div xml:lang="sc">
+				<div xml:id="LXXXVII_sc" corresp="LXXXVII_it">
+					<head type="mainTitle">CAP. LXXXVII.</head>
+					<head type="subTitle">De non bogari Astori, nen Falconi dae niu.</head>
+					<p><hi rend="capolettera">C</hi>onstituimus, ed ordinamusm, chi alcun homini <rs ana="#furto" xml:lang="sc">non deppiat bogari <rs ana="#astore #vittima" xml:lang="sc">Astori</rs>, nen <rs ana="#falcone #vittima" xml:lang="sc">Falconi</rs> dae niu</rs>; ed <rs ana="#reo" xml:lang="sc">icussu, ch'illu hat a bogari</rs>, siat tenudu su <rs ana="#curatore #esecutore" xml:lang="sc">Curadori</rs> dessa Curadoria, de undi hat a esser s'homini, de <rs ana="#arresto" xml:lang="sc">tennillu, e battirillu a Nos</rs>, <rs ana="#ammenda" xml:lang="sc">a pena de pagari <rs ana="#curatore #reo">su Curadori</rs> liras chimbi</rs>.</p>
+				</div>
+			</div>
+			<pb n="103"/>
+			<div xml:lang="it">
+				<div xml:id="LXXXVII_it" corresp="LXXXVII_sc">
+					<head type="mainTitle">CAP. LXXXVII.</head>
+					<head type="subTitle">Di non cavar Astore, nè Falcone dal nido.</head>
+					<p><hi rend="capolettera">C</hi>onstituiamo, ed ordiniamo, che alcun uomo <rs ana="#furto">non debba cavar <rs ana="#astore #vittima">Astore</rs>, nè <rs ana="#falcone #vittima">Falcone</rs> dal nido</rs><note n="149" place="foot" type="editorial" resp="#GMM">Il falconare doveva essere il sollazzo favorito della <persName><rs ana="#giudice">Giudicessa</rs> Eleonora</persName>, giacchè tanto le stavano a cuore i nidi de' <rs ana="#falcone">Falconi</rs>, e degli <rs ana="#astore">Astori</rs>. Di nidi di Falconi però più non se ne vede in Sardegna, e nelle sue Isole aggiacenti, una delle quali anticamente nomavasi degli Sparvieri, ed un'altra de' Falconi, e par, che stizzati dalla preferenza, che su di essi si da nella caccia all'archibuso, se ne sieno iti anche i Falconi Sardi a nidificar nell'Affrica, se pure nor, gli avesse allontanati 'l timore delle armi da fuoco, colle quali, dopo l'introduzione dell'uso delle medesime, si fossero veduti troppo perseguitati.</note>; e <rs ana="#reo">colui, che lo caverà</rs>, sia tenuto il <rs ana="#curatore #esecutore">Curatore</rs> della Curatorìa, d'onde sarà l'uomo, <rs ana="#arresto">di catturarlo, e portarlo a Noi</rs>, <rs ana="#ammenda">a pena di pagare <rs ana="#curatore #reo">il Curatore</rs> lire cinque</rs>.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
